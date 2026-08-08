@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const ytsr = require('ytsr');
-const ytdl = require('ytdl-core');
+const ytdl = require('@distube/ytdl-core');
 
 const app = express();
 app.use(cors());
